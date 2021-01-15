@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RayTracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Hans/Desktop/RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Hans/Desktop/RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Hans/Desktop/RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracer">
+				<Option output="/Users/Hans/Desktop/RayTracer/cmake-build-debug/RayTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Hans/Desktop/RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Hans/Desktop/RayTracer/."/>
+					<Add directory="/Users/Hans/Desktop/RayTracer/external"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracer/fast">
+				<Option output="/Users/Hans/Desktop/RayTracer/cmake-build-debug/RayTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Hans/Desktop/RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Hans/Desktop/RayTracer/."/>
+					<Add directory="/Users/Hans/Desktop/RayTracer/external"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Hans/Desktop/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/CMakeLists.txt">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/aabb.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/CMakeCache.txt">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/Makefile">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/Raytracer">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/cmake_install.cmake">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/output.ppm">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/output1.ppm">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/output2.ppm">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/output3.ppm">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/build/output4.ppm">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/camera.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/color.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/cube.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/external/stb_image.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/external/stb_image_write.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/hittable.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/hittable_list.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/light.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/main.cc">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/material.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/perlin.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/ray.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/rtw_stb_image.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/rtweekend.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/sphere.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/texture.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/triangle.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/vec3.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/Hans/Desktop/RayTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
